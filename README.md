@@ -11,13 +11,13 @@ to manual map your dll into protected game by anti cheat.
 
 
 
-The idea is well explained below image.
-
 [Imgur](https://imgur.com/AJojXut)
 
+This explains well the idea.
 
 
-SEH is not supported, implement it yourself.
+
+SEH is not supported.
 
 # How it works
 
