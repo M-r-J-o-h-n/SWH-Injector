@@ -71,7 +71,11 @@ Especially the part of determining physical memory size of PhysicalMemory.cpp.
 
 > namazso - rwx meme
 >
+> can1357 - perfect injector source
+>
 > Tormund - his idea of injector
 >
 > harakirinox - Physmem
+>
+> 
 
