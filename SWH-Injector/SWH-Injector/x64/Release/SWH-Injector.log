@@ -1,0 +1,9 @@
+﻿  HookProcCallBack.cpp
+c:\users\hunter\source\repos\swh-injector\swh-injector\hookproccallback.cpp(109): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hunter\source\repos\swh-injector\swh-injector\hookproccallback.cpp(195): warning C4101: 'pSectionHeader' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다.
+  0 of 650 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  SWH-Injector.vcxproj -> C:\Users\Hunter\source\repos\SWH-Injector\x64\Release\SWH-Injector.exe
