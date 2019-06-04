@@ -53,7 +53,9 @@ Especially the part of determining physical memory size of PhysicalMemory.cpp.
 
 # credits 
 
-<unknowncheats.me>
-namazso - rwx meme
-Tormund - his idea of injector
-harakirinox - Physmem
+> namazso - rwx meme
+>
+> Tormund - his idea of injector
+>
+> harakirinox - Physmem
+
