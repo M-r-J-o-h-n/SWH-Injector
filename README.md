@@ -13,7 +13,7 @@ to manual map your dll into protected game by anti cheat.
 
 The idea is well explained below image.
 
-![](C:\Users\Hunter\Documents\GitHub\SWH-Injector\1.PNG)
+![Idea](C:\Users\Hunter\Documents\GitHub\SWH-Injector\1.PNG)
 
 
 
