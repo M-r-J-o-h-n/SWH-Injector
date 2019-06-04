@@ -15,6 +15,10 @@ The idea is well explained below image.
 
 [Imgur](https://imgur.com/AJojXut)
 
+
+
+SEH is not supported, implement it yourself.
+
 # How it works
 
 We need two signed dlls that contains rwx section.
@@ -53,6 +57,8 @@ If you use this injector to cheat in BE or EAC games, i recommend you to modify 
 
 At least change the way you access physical memory, and use other signed dlls.
 
+
+
 # FeedBack
 
 Code review is welcome!
@@ -61,7 +67,7 @@ Especially the part of determining physical memory size of PhysicalMemory.cpp.
 
 
 
-# credits 
+# Credits 
 
 > namazso - rwx meme
 >
