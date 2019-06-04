@@ -2,21 +2,18 @@
 
 This inejctor uses 
 
-physical memory, 
+1. physical memory,
+2. two signed dll that contains rwx section
+3. SetWindowedHookEx
+4. Copy On Write
 
-a signed dll that contains rwx section, 
-
-SetWindowedHookEx,
-
-CopyOnWrite
-
-to manual map your dll.
+to manual map your dll into protected game by anti cheat.
 
 
 
 The idea is well explained below image.
 
-![](C:\Users\Hunter\Desktop\1.PNG)
+![](https://imgur.com/AJojXut)
 
 
 
