@@ -21,7 +21,7 @@ SEH is not supported, implement it yourself.
 
 # How it works
 
-We need two signed dlls that contains rwx section.
+We need two signed dlls that contain rwx section.
 
 One for our manual mapper code, and One for a dll to be injected.
 
@@ -33,7 +33,7 @@ You can always replace it to whatever you favor.
 
 But you have to find a dll that doesn't do any write operation on rwx section, Because it will trigger COW. Then the physical memory space of rwx section wouldn't be shared between different processes.
 
-It then loads a process hacker's driver to access physical memory so that we can write on rwx section without triggering COW.
+It then loads a process hacker's driver to access physical memory so that we can write on rwx section without triggering COW. 
 
 Using the driver, it writes manual mapper code directly on physical memory of rwx section.
 
