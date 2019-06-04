@@ -39,7 +39,7 @@ Using the driver, it writes manual mapper code directly on physical memory of rw
 
 Next, by using SetWindowsHookEx The injector injects the same dll into target process.
 
-Then our manual mapper code will loadlibrary a signed dll that contains rwx that the restriction above is not required. It then maps target dll on rwx section on the dll.
+Then our manual mapper code will loadlibrary a signed dll that contains rwx that the restriction above is not required. It then maps target dll on rwx section of the dll.
 
 When the injection completes, the injector unhook it. 
 
