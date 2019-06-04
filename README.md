@@ -31,7 +31,7 @@ The injector loads a signed dll with rwx section which is "ShellContainer.dll".
 
 You can always replace it to whatever you favor. 
 
-But you have to find a dll that doesn't do any write operation on rwx section, Because it will trigger COW. Then the physical memory space of rwx section wouldn't be shared between different processes.
+But you have to find a dll that doesn't do any write operation on rwx section on initialization routine. Because it will trigger COW. Then the physical memory space of rwx section wouldn't be shared between different processes.
 
 It then loads a process hacker's driver to access physical memory so that we can write on rwx section without triggering COW. 
 
