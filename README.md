@@ -17,7 +17,7 @@ This explains well the idea.
 
 # How to use
 
-command line : SignedDll.dll TargetDll.dll TargetProcName.exe
+Command line : SignedDll.dll TargetDll.dll TargetProcName.exe
 
 SEH is not supported!
 
