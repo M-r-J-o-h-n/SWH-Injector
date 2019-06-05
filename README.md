@@ -15,9 +15,11 @@ to manual map your dll into protected game by anti cheat.
 
 This explains well the idea.
 
+# How to use
 
+command line : SignedDll.dll TargetDll.dll TargetProcName.exe
 
-SEH is not supported.
+SEH is not supported!
 
 # How it works
 
