@@ -19,6 +19,8 @@ This explains well the idea.
 
 Command line : SignedDll.dll TargetDll.dll TargetProcName.exe
 
+
+Tested on windows 10 1803.
 SEH is not supported!
 
 # How it works
