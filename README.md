@@ -42,6 +42,8 @@ It then loads a process hacker's driver to access physical memory so that we can
 
 Using the driver, it writes manual mapper code directly on physical memory of rwx section.
 
+After this, physical memory is unmapped from the injector.
+
 Next, by using SetWindowsHookEx The injector injects the same dll into target process.
 
 Then our manual mapper code will loadlibrary a signed dll that contains rwx that the restriction above is not required. It then maps target dll on rwx section of the dll.
